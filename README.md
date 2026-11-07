@@ -1,2 +1,5 @@
 # Game-Jam-week-two
-Spacw
+Space based game
+
+current ideas:
+- 2D rocket builder -> 
