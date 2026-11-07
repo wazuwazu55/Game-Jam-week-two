@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://bmv8b3kcj2rwm"]
+
+[sub_resource type="QuadMesh" id="QuadMesh_eaghv"]
+
+[node name="Node2D" type="Node2D" unique_id=1018373217]
+
+[node name="Polygon2D" type="Polygon2D" parent="." unique_id=819670233]
+position = Vector2(309, 137)
+scale = Vector2(4.1228204, 41.02229)
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="Polygon2D" unique_id=548817573]
+scale = Vector2(21.684868, 0.83716166)
+mesh = SubResource("QuadMesh_eaghv")
