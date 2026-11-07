@@ -1,0 +1,5 @@
+78098b89c88a74ebe8c20117b8754620
+::res://::1794080510
+icon.svg::CompressedTexture2D::5358236210638749048::1794080192::1794080511::1::::<><><>0<>0<>36254214f673d893d5a13f56a81ff13d<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+node_2d.tscn::PackedScene::3274045672945770852::1794080192::0::1::::<><><>0<>0<><>::uid://d08pq3ydqsnde::::res://Player_Movement.gd<>uid://ciltmq43oju3i::::res://icon.svg
+Player_Movement.gd::GDScript::8983048443395580942::1794080192::0::1::::<>CharacterBody2D<><>0<>0<><>::
