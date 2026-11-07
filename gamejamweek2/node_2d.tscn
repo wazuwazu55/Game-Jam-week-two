@@ -3,6 +3,10 @@
 [ext_resource type="Script" uid="uid://d08pq3ydqsnde" path="res://Player_Movement.gd" id="1_0e48y"]
 [ext_resource type="Texture2D" uid="uid://ciltmq43oju3i" path="res://icon.svg" id="2_epypp"]
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5qk0w"]
+
+[sub_resource type="QuadMesh" id="QuadMesh_5qk0w"]
+
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_4fad1"]
 
 [sub_resource type="QuadMesh" id="QuadMesh_orrq1"]
@@ -11,10 +15,6 @@
 
 [sub_resource type="QuadMesh" id="QuadMesh_vyfme"]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_5qk0w"]
-
-[sub_resource type="QuadMesh" id="QuadMesh_5qk0w"]
-
 [node name="Main" type="Node2D" unique_id=1018373217]
 
 [node name="Main Screen" type="Node2D" parent="." unique_id=1351352914]
@@ -22,6 +22,19 @@
 [node name="Pause Menu" type="Node2D" parent="." unique_id=1563683831]
 
 [node name="Game" type="Node2D" parent="." unique_id=598611194]
+
+[node name="StaticBody2D2" type="StaticBody2D" parent="Game" unique_id=359765278]
+position = Vector2(502, 584.00006)
+scale = Vector2(1.8294992, 2.1012697)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Game/StaticBody2D2" unique_id=1731140338]
+shape = SubResource("RectangleShape2D_5qk0w")
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="Game/StaticBody2D2/CollisionShape2D" unique_id=1810791749]
+modulate = Color(0.41568628, 1, 1, 1)
+self_modulate = Color(0.41568628, 1, 1, 1)
+scale = Vector2(20.110569, 19.883167)
+mesh = SubResource("QuadMesh_5qk0w")
 
 [node name="Floor" type="StaticBody2D" parent="Game" unique_id=796051167]
 position = Vector2(2108, 627)
