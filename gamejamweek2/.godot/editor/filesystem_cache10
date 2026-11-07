@@ -1,5 +1,10 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1794081716
+::res://::1794083646
 icon.svg::CompressedTexture2D::5358236210638749048::1794076543::1794081717::1::::<><><>0<>0<>36254214f673d893d5a13f56a81ff13d<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-node_2d.tscn::PackedScene::3274045672945770852::1794081618::0::1::::<><><>0<>0<><>::uid://d08pq3ydqsnde::::res://Player_Movement.gd<>uid://ciltmq43oju3i::::res://icon.svg
-Player_Movement.gd::GDScript::8983048443395580942::1794081618::0::1::::<>CharacterBody2D<><>0<>0<><>::
+LargeFuelTank.png::CompressedTexture2D::5513996222480039478::1794083552::1794083646::1::::<><><>0<>0<>8e3cd0bdd436420f35b4a3bccc96e5c4<>res://.godot/imported/LargeFuelTank.png-10e49e6358e26a03442945d6aad95aea.ctex::
+LargeThruster.png::CompressedTexture2D::152765771376815160::1794083542::1794083623::1::::<><><>0<>0<>2d3410334b420b6776b2e59dbd263c7e<>res://.godot/imported/LargeThruster.png-c365f5e3e30e252bd630323a86c75f89.ctex::
+node_2d.tscn::PackedScene::3274045672945770852::1794083507::0::1::::<><><>0<>0<><>::uid://d08pq3ydqsnde::::res://Player_Movement.gd<>uid://ciltmq43oju3i::::res://icon.svg
+Player_Movement.gd::GDScript::8983048443395580942::1794083507::0::1::::<>CharacterBody2D<><>0<>0<><>::
+RocketCapsule.png::CompressedTexture2D::2828844227313343545::1794083556::1794083582::1::::<><><>0<>0<>875807a9881a273e3f073cb6c7c712c9<>res://.godot/imported/RocketCapsule.png-422469a17f2ea3e4c2c536d76a7b3d00.ctex::
+SmallFuelTank.png::CompressedTexture2D::3060157875024308392::1794083550::1794083639::1::::<><><>0<>0<>a068b381dea76b699745f3926ab87a62<>res://.godot/imported/SmallFuelTank.png-fcd9f3effa9e52385c4f48f9c90ddf95.ctex::
+SmallThruster.png::CompressedTexture2D::262707806645583494::1794083547::1794083619::1::::<><><>0<>0<>7df096d17554d55a69f610420196655f<>res://.godot/imported/SmallThruster.png-6b1d4f48333a06317a2012f3f7ef7cf9.ctex::
