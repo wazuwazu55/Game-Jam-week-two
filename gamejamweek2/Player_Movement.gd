@@ -1,28 +1,29 @@
 extends CharacterBody2D
 
 
-var SPEED = 150.0
-const JUMP_VELOCITY = -400.0
-
+var speed = 150.0
+var sprint_speed = 300.0
+var acceleration = 800.0
+var deceleration = 600.0
+var jump_velocity = -400.0
 
 func _physics_process(delta: float) -> void:
-	# Add the gravity.
+	# Apply gravity
 	if not is_on_floor():
-		velocity += get_gravity() * delta
-
-	# Handle jump.
+		velocity.y += get_gravity().y * delta
+	# Handle jump
 	if Input.is_action_just_pressed("jump") and is_on_floor():
-		velocity.y = JUMP_VELOCITY
-	if Input.is_action_just_pressed("sprint"):
-		SPEED = 300.0
-	if Input.is_action_just_released("sprint"):
-		SPEED = 150.0
-	# Get the input direction and handle the movement/deceleration.
-	# As good practice, you should replace UI actions with custom gameplay actions.
+		velocity.y = jump_velocity
+	# Sprint toggle
+	var current_max_speed :float = speed
+	if Input.is_action_pressed("sprint"):
+		current_max_speed = sprint_speed
+	#Horizontal movement input
 	var direction := Input.get_axis("left", "right")
 	if direction:
-		velocity.x = direction * SPEED
+		#Accelerate
+		velocity.x = move_toward(velocity.x, direction * current_max_speed, acceleration * delta)
 	else:
-		velocity.x = move_toward(velocity.x, 0, SPEED)
-
+		#Decelerate
+		velocity.x = move_toward(velocity.x, 0, deceleration * delta)
 	move_and_slide()

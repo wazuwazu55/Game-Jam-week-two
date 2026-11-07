@@ -38,22 +38,22 @@ scale = Vector2(19.998732, -19.595848)
 mesh = SubResource("QuadMesh_orrq1")
 
 [node name="CharacterBody2D" type="CharacterBody2D" parent="Game" unique_id=1538495168]
-position = Vector2(25, 548)
+position = Vector2(23, 593)
 script = ExtResource("1_0e48y")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Game/CharacterBody2D" unique_id=421679409]
 shape = SubResource("RectangleShape2D_eaghv")
 
-[node name="MeshInstance2D" type="MeshInstance2D" parent="Game/CharacterBody2D/CollisionShape2D" unique_id=1814439143]
-rotation = 3.1382167
-scale = Vector2(19.991613, 20.050776)
-mesh = SubResource("QuadMesh_vyfme")
-texture = ExtResource("2_epypp")
-
 [node name="Camera2D" type="Camera2D" parent="Game/CharacterBody2D" unique_id=828360797]
 position = Vector2(1.9073486e-06, 6.1035156e-05)
 scale = Vector2(0.5525728, -0.45497188)
 zoom = Vector2(1.925, 1.925)
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="Game/CharacterBody2D" unique_id=1814439143]
+rotation = -3.1415925
+scale = Vector2(19.991613, 20.050776)
+mesh = SubResource("QuadMesh_vyfme")
+texture = ExtResource("2_epypp")
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Game" unique_id=942489815]
 position = Vector2(214, 584)
