@@ -47,3 +47,8 @@ rotation = 3.1382167
 scale = Vector2(19.991613, 20.050776)
 mesh = SubResource("QuadMesh_vyfme")
 texture = ExtResource("2_epypp")
+
+[node name="Camera2D" type="Camera2D" parent="CharacterBody2D" unique_id=828360797]
+position = Vector2(1.9073486e-06, 6.1035156e-05)
+scale = Vector2(0.5525728, -0.45497188)
+zoom = Vector2(1.925, 1.925)
