@@ -1,7 +1,12 @@
 [gd_scene format=3 uid="uid://bmv8b3kcj2rwm"]
 
 [ext_resource type="Script" uid="uid://d08pq3ydqsnde" path="res://Player_Movement.gd" id="1_0e48y"]
+[ext_resource type="Texture2D" uid="uid://bgkkwex2fnxhx" path="res://RocketCapsule.png" id="1_d21ai"]
 [ext_resource type="Texture2D" uid="uid://ciltmq43oju3i" path="res://icon.svg" id="2_epypp"]
+[ext_resource type="Texture2D" uid="uid://cgabautrkmyy" path="res://LargeThruster.png" id="2_rj586"]
+[ext_resource type="Texture2D" uid="uid://cktayhjq4glnq" path="res://LargeFuelTank.png" id="3_0hol4"]
+[ext_resource type="Texture2D" uid="uid://d0i02vloj83c" path="res://SmallThruster.png" id="3_4d7sh"]
+[ext_resource type="Texture2D" uid="uid://bjummagrt1t65" path="res://SmallFuelTank.png" id="4_q6r6c"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_4fad1"]
 
@@ -11,9 +16,11 @@
 
 [sub_resource type="QuadMesh" id="QuadMesh_vyfme"]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_5qk0w"]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_orrq1"]
+size = Vector2(28, 44)
 
-[sub_resource type="QuadMesh" id="QuadMesh_5qk0w"]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_vyfme"]
+size = Vector2(10, 34)
 
 [node name="Main" type="Node2D" unique_id=1018373217]
 
@@ -22,6 +29,39 @@
 [node name="Pause Menu" type="Node2D" parent="." unique_id=1563683831]
 
 [node name="Game" type="Node2D" parent="." unique_id=598611194]
+
+[node name="Rocket_capsule" type="StaticBody2D" parent="Game" unique_id=839786512]
+position = Vector2(465, 581)
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Game/Rocket_capsule" unique_id=692525477]
+position = Vector2(-0.5, -5)
+scale = Vector2(1.2179984, 2.657475)
+polygon = PackedVector2Array(-9.441711, -0.752594, -8.620697, -0.752594, -8.620697, -2.634079, -7.7996826, -2.634079, -7.7996826, -3.76297, -6.978668, -3.76297, -6.978668, -4.515564, -6.157654, -4.515564, -6.157654, -5.268158, -5.336609, -5.268158, -5.336609, -6.397049, -4.5155945, -6.397049, -4.5155945, -6.773346, -3.69458, -6.773346, -3.69458, -7.52594, -2.8735657, -7.52594, -2.8735657, -7.902237, -2.0525513, -7.902237, -2.0525513, -8.654831, -1.2315369, -8.654831, -1.2315369, -9.031128, -0.41052246, -9.031128, -0.41052246, -9.407425, 0.41052246, -9.407425, 0.41052246, -9.031128, 1.2315369, -9.031128, 1.2315369, -8.654831, 2.0525513, -8.654831, 2.0525513, -7.902237, 2.8735657, -7.902237, 2.8735657, -7.52594, 3.69458, -7.52594, 3.69458, -6.773346, 4.5155945, -6.773346, 4.5155945, -6.397049, 5.3366394, -6.397049, 5.3366394, -5.268158, 6.157654, -5.268158, 6.157654, -4.515564, 6.978668, -4.515564, 6.978668, -3.76297, 7.7996826, -3.76297, 7.7996826, -2.634079, 8.620697, -2.634079, 8.620697, -0.752594, 9.441711, -0.752594, 9.441711, 7.902237, 8.620697, 7.902237, 8.620697, 8.278534, 7.7996826, 8.278534, 7.7996826, 8.654831, 6.978668, 8.654831, 6.978668, 9.031128, 4.5155945, 9.031128, 4.5155945, 9.407425, 1.2315369, 9.407425, 1.2315369, 9.783722, -1.2315369, 9.783722, -1.2315369, 9.407425, -4.5155945, 9.407425, -4.5155945, 9.031128, -6.978668, 9.031128, -6.978668, 8.654831, -7.7996826, 8.654831, -7.7996826, 8.278534, -8.620697, 8.278534, -8.620697, 7.902237, -9.441711, 7.902237)
+
+[node name="RocketCapsule" type="Sprite2D" parent="Game/Rocket_capsule" unique_id=1006432241]
+texture = ExtResource("1_d21ai")
+
+[node name="L_Thruster" type="StaticBody2D" parent="Game" unique_id=140443655]
+position = Vector2(436, 585)
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Game/L_Thruster" unique_id=964610109]
+position = Vector2(0, -1)
+scale = Vector2(1.2115846, 1.8052933)
+polygon = PackedVector2Array(-7.4282837, 5.5392456, -7.4282837, 3.877472, -6.6029053, 3.877472, -6.6029053, 2.7696228, -5.7775574, 2.7696228, -5.7775574, 0.55392456, -4.952179, 0.55392456, -4.952179, -8.308899, -4.1268005, -8.308899, -4.1268005, -8.8628235, -3.3014526, -8.8628235, -3.3014526, -9.416748, -2.4760742, -9.416748, -2.4760742, -9.970673, 2.4761047, -9.970673, 2.4761047, -9.416748, 3.3014832, -9.416748, 3.3014832, -8.8628235, 4.126831, -8.8628235, 4.126831, -8.308899, 4.9522095, -8.308899, 4.9522095, 0.55392456, 5.7775574, 0.55392456, 5.7775574, 2.7696228, 6.602936, 2.7696228, 6.602936, 3.877472, 7.428314, 3.877472, 7.428314, 5.5392456, 8.253662, 5.5392456, 8.253662, 7.20105, 9.079041, 7.20105, 9.079041, 8.8628235, 9.904388, 8.8628235, 9.904388, 9.970673, -9.904388, 9.970673, -9.904388, 8.8628235, -9.07901, 8.8628235, -9.07901, 7.20105, -8.253632, 7.20105, -8.253632, 5.5392456)
+
+[node name="LargeThruster" type="Sprite2D" parent="Game/L_Thruster" unique_id=1929649581]
+position = Vector2(-1, 5)
+texture = ExtResource("2_rj586")
+
+[node name="S_Thruster" type="StaticBody2D" parent="Game" unique_id=693596766]
+position = Vector2(415, 591)
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Game/S_Thruster" unique_id=538583712]
+polygon = PackedVector2Array(-4, 5, -4, -11, -3, -11, -3, -12, -2, -12, -2, -13, 2, -13, 2, -12, 3, -12, 3, -11, 4, -11, 4, 5, 5, 5, 5, 6, 6, 6, 6, 10, 7, 10, 7, 11, -7, 11, -7, 10, -6, 10, -6, 6, -5, 6, -5, 5)
+
+[node name="SmallThruster" type="Sprite2D" parent="Game/S_Thruster" unique_id=118755334]
+position = Vector2(-1, 6)
+texture = ExtResource("3_4d7sh")
 
 [node name="Floor" type="StaticBody2D" parent="Game" unique_id=796051167]
 position = Vector2(2108, 627)
@@ -55,28 +95,24 @@ scale = Vector2(19.991613, 20.050776)
 mesh = SubResource("QuadMesh_vyfme")
 texture = ExtResource("2_epypp")
 
-[node name="StaticBody2D" type="StaticBody2D" parent="Game" unique_id=942489815]
-position = Vector2(214, 584)
-scale = Vector2(1.8294992, 2.1012697)
+[node name="L_fuel_tank" type="StaticBody2D" parent="Game" unique_id=608853934]
+position = Vector2(378, 581)
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Game/StaticBody2D" unique_id=1383835609]
-shape = SubResource("RectangleShape2D_5qk0w")
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Game/L_fuel_tank" unique_id=909855778]
+position = Vector2(0.5, -1)
+shape = SubResource("RectangleShape2D_orrq1")
 
-[node name="MeshInstance2D" type="MeshInstance2D" parent="Game/StaticBody2D/CollisionShape2D" unique_id=693849728]
-modulate = Color(0.41568628, 1, 1, 1)
-self_modulate = Color(0.41568628, 1, 1, 1)
-scale = Vector2(20.110569, 19.883167)
-mesh = SubResource("QuadMesh_5qk0w")
+[node name="LargeFuelTank" type="Sprite2D" parent="Game/L_fuel_tank" unique_id=877913520]
+texture = ExtResource("3_0hol4")
+offset = Vector2(1.5, 9)
 
-[node name="StaticBody2D2" type="StaticBody2D" parent="Game" unique_id=359765278]
-position = Vector2(351, 279)
-scale = Vector2(1.8294992, 2.1012697)
+[node name="S_fuel_tank" type="StaticBody2D" parent="Game" unique_id=591709953]
+position = Vector2(400, 585)
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Game/StaticBody2D2" unique_id=1731140338]
-shape = SubResource("RectangleShape2D_5qk0w")
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Game/S_fuel_tank" unique_id=293074663]
+position = Vector2(-0.010009766, 0)
+shape = SubResource("RectangleShape2D_vyfme")
 
-[node name="MeshInstance2D" type="MeshInstance2D" parent="Game/StaticBody2D2/CollisionShape2D" unique_id=1810791749]
-modulate = Color(0.41568628, 1, 1, 1)
-self_modulate = Color(0.41568628, 1, 1, 1)
-scale = Vector2(20.110569, 19.883167)
-mesh = SubResource("QuadMesh_5qk0w")
+[node name="SmallFuelTank" type="Sprite2D" parent="Game/S_fuel_tank" unique_id=280367535]
+position = Vector2(-2, 3)
+texture = ExtResource("4_q6r6c")
