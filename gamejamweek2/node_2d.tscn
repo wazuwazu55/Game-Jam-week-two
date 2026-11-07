@@ -24,7 +24,7 @@
 [node name="Game" type="Node2D" parent="." unique_id=598611194]
 
 [node name="StaticBody2D2" type="StaticBody2D" parent="Game" unique_id=359765278]
-position = Vector2(502, 584.00006)
+position = Vector2(351, 279)
 scale = Vector2(1.8294992, 2.1012697)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Game/StaticBody2D2" unique_id=1731140338]
