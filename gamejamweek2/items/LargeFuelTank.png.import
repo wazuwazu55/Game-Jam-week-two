@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bjummagrt1t65"
-path="res://.godot/imported/SmallFuelTank.png-fcd9f3effa9e52385c4f48f9c90ddf95.ctex"
+uid="uid://cktayhjq4glnq"
+path="res://.godot/imported/LargeFuelTank.png-dd2b8c7ee909d675f748ad7354d4c08d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SmallFuelTank.png"
-dest_files=["res://.godot/imported/SmallFuelTank.png-fcd9f3effa9e52385c4f48f9c90ddf95.ctex"]
+source_file="res://items/LargeFuelTank.png"
+dest_files=["res://.godot/imported/LargeFuelTank.png-dd2b8c7ee909d675f748ad7354d4c08d.ctex"]
 
 [params]
 

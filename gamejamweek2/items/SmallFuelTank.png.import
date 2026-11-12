@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cgabautrkmyy"
-path="res://.godot/imported/LargeThruster.png-c365f5e3e30e252bd630323a86c75f89.ctex"
+uid="uid://bjummagrt1t65"
+path="res://.godot/imported/SmallFuelTank.png-cc76f0f3365f59a6bf90e2c28f4e3a60.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://LargeThruster.png"
-dest_files=["res://.godot/imported/LargeThruster.png-c365f5e3e30e252bd630323a86c75f89.ctex"]
+source_file="res://items/SmallFuelTank.png"
+dest_files=["res://.godot/imported/SmallFuelTank.png-cc76f0f3365f59a6bf90e2c28f4e3a60.ctex"]
 
 [params]
 

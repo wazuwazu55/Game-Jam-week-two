@@ -1,12 +1,13 @@
 [gd_scene format=3 uid="uid://bmv8b3kcj2rwm"]
 
 [ext_resource type="Script" uid="uid://d08pq3ydqsnde" path="res://Player_Movement.gd" id="1_0e48y"]
-[ext_resource type="Texture2D" uid="uid://bgkkwex2fnxhx" path="res://RocketCapsule.png" id="1_d21ai"]
+[ext_resource type="Texture2D" uid="uid://bgkkwex2fnxhx" path="res://items/RocketCapsule.png" id="1_d21ai"]
+[ext_resource type="Texture2D" uid="uid://btwgeu3vqkf8g" path="res://Temp_Inv.png" id="1_rj586"]
 [ext_resource type="Texture2D" uid="uid://ciltmq43oju3i" path="res://icon.svg" id="2_epypp"]
-[ext_resource type="Texture2D" uid="uid://cgabautrkmyy" path="res://LargeThruster.png" id="2_rj586"]
-[ext_resource type="Texture2D" uid="uid://cktayhjq4glnq" path="res://LargeFuelTank.png" id="3_0hol4"]
-[ext_resource type="Texture2D" uid="uid://d0i02vloj83c" path="res://SmallThruster.png" id="3_4d7sh"]
-[ext_resource type="Texture2D" uid="uid://bjummagrt1t65" path="res://SmallFuelTank.png" id="4_q6r6c"]
+[ext_resource type="Texture2D" uid="uid://cgabautrkmyy" path="res://items/LargeThruster.png" id="2_rj586"]
+[ext_resource type="Texture2D" uid="uid://cktayhjq4glnq" path="res://items/LargeFuelTank.png" id="3_0hol4"]
+[ext_resource type="Texture2D" uid="uid://d0i02vloj83c" path="res://items/SmallThruster.png" id="3_4d7sh"]
+[ext_resource type="Texture2D" uid="uid://bjummagrt1t65" path="res://items/SmallFuelTank.png" id="4_q6r6c"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_4fad1"]
 
@@ -31,6 +32,11 @@ size = Vector2(10, 34)
 [node name="Inventory" type="Node2D" parent="." unique_id=1550359263]
 
 [node name="InvGUI" type="CanvasLayer" parent="Inventory" unique_id=1494725001]
+
+[node name="TempInv" type="Sprite2D" parent="Inventory/InvGUI" unique_id=1788670895]
+position = Vector2(23, 593)
+scale = Vector2(2.9899998, 3.36)
+texture = ExtResource("1_rj586")
 
 [node name="Game" type="Node2D" parent="." unique_id=598611194]
 

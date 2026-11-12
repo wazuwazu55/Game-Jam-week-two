@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cktayhjq4glnq"
-path="res://.godot/imported/LargeFuelTank.png-10e49e6358e26a03442945d6aad95aea.ctex"
+uid="uid://bgkkwex2fnxhx"
+path="res://.godot/imported/RocketCapsule.png-e0361cfb847661176335c37fbe225b7d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://LargeFuelTank.png"
-dest_files=["res://.godot/imported/LargeFuelTank.png-10e49e6358e26a03442945d6aad95aea.ctex"]
+source_file="res://items/RocketCapsule.png"
+dest_files=["res://.godot/imported/RocketCapsule.png-e0361cfb847661176335c37fbe225b7d.ctex"]
 
 [params]
 
