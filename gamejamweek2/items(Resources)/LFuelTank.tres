@@ -1,3 +1,11 @@
-[gd_resource type="Resource" format=3 uid="uid://caohkinmmscdt"]
+[gd_resource type="Resource" script_class="ItemData" format=3 uid="uid://caohkinmmscdt"]
+
+[ext_resource type="Script" uid="uid://sub2pmedv72v" path="res://items(Resources)/ItemData.gd" id="1_p5bjl"]
+[ext_resource type="Texture2D" uid="uid://cktayhjq4glnq" path="res://items/LargeFuelTank.png" id="2_8k8oa"]
 
 [resource]
+script = ExtResource("1_p5bjl")
+type = 11
+name = "Large Fuel Tank"
+description = "Large Fuel Tank, Adds 5L of Fuel to Rocketship tank"
+texture = ExtResource("2_8k8oa")
