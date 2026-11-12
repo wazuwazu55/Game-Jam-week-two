@@ -28,6 +28,10 @@ size = Vector2(10, 34)
 
 [node name="Pause Menu" type="Node2D" parent="." unique_id=1563683831]
 
+[node name="Inventory" type="Node2D" parent="." unique_id=1550359263]
+
+[node name="InvGUI" type="CanvasLayer" parent="Inventory" unique_id=1494725001]
+
 [node name="Game" type="Node2D" parent="." unique_id=598611194]
 
 [node name="Rocket_capsule" type="StaticBody2D" parent="Game" unique_id=839786512]
