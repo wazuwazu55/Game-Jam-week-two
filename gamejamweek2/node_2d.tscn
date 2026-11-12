@@ -35,22 +35,19 @@ size = Vector2(10, 34)
 [node name="InvGUI" type="CanvasLayer" parent="Inventory" unique_id=1494725001]
 script = ExtResource("1_4d7sh")
 
-[node name="TempInv" type="Sprite2D" parent="Inventory/InvGUI" unique_id=1788670895]
-position = Vector2(578, 324)
-scale = Vector2(5.7749996, 6.4799995)
-texture = ExtResource("1_rj586")
-offset = Vector2(-0.1, 0)
-
 [node name="Inv" type="GridContainer" parent="Inventory/InvGUI" unique_id=274800524]
+custom_minimum_size = Vector2(32, 32)
 anchors_preset = -1
 anchor_right = 1.003
 anchor_bottom = 1.0020001
 offset_right = -0.4560547
 offset_bottom = -0.29608154
 
-[node name="Panel" type="Panel" parent="Inventory/InvGUI/Inv" unique_id=843452541]
-custom_minimum_size = Vector2(40, 40)
-layout_mode = 2
+[node name="TempInv" type="Sprite2D" parent="Inventory/InvGUI" unique_id=1788670895]
+position = Vector2(578, 324)
+scale = Vector2(5.7749996, 6.4799995)
+texture = ExtResource("1_rj586")
+offset = Vector2(-0.1, 0)
 
 [node name="Game" type="Node2D" parent="." unique_id=598611194]
 

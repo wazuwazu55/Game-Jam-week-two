@@ -3,3 +3,4 @@ res://items(Resources)/ItemData.gd
 res://items(Resources)/LFuelTank.tres
 res://inventory.gd
 res://InventorySlot.gd
+res://InventoryItem.gd
