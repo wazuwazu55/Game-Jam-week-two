@@ -11,6 +11,8 @@ Needed:
 - add code to get inv to work
     - https://forum.godotengine.org/t/how-do-i-make-a-simple-inventory/59045/3
     - There is a good video here
+    - https://forum.godotengine.org/t/how-to-get-size-of-2d-node-in-pixels/25694
+    - has a line of code to get size of an object in pixels (2D)
 - Add / fix up sprites
 - Add Grid + building
     - Scripting :(
