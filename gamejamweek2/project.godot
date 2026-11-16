@@ -11,9 +11,9 @@ config_version=5
 [application]
 
 config/name="GameJamweek2"
-run/main_scene="uid://bmv8b3kcj2rwm"
+run/main_scene="uid://di314kp5x1j2j"
 config/features=PackedStringArray("4.7", "GL Compatibility")
-config/icon="res://icon.svg"
+config/icon="res://Assets/icon.svg"
 
 [display]
 
