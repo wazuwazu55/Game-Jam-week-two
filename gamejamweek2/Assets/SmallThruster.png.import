@@ -3,15 +3,24 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d0i02vloj83c"
+<<<<<<<< HEAD:gamejamweek2/Assets/SmallThruster.png.import
 path="res://.godot/imported/SmallThruster.png-3d63ca6addf22841a23cc72a60540b18.ctex"
+========
+path="res://.godot/imported/SmallThruster.png-d1f2f171034bedee92789b956ebfe590.ctex"
+>>>>>>>> b7a4b4cbd20e503e8cf1fd3db2b628d137fb393e:gamejamweek2/items/SmallThruster.png.import
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
+<<<<<<<< HEAD:gamejamweek2/Assets/SmallThruster.png.import
 source_file="res://Assets/SmallThruster.png"
 dest_files=["res://.godot/imported/SmallThruster.png-3d63ca6addf22841a23cc72a60540b18.ctex"]
+========
+source_file="res://items/SmallThruster.png"
+dest_files=["res://.godot/imported/SmallThruster.png-d1f2f171034bedee92789b956ebfe590.ctex"]
+>>>>>>>> b7a4b4cbd20e503e8cf1fd3db2b628d137fb393e:gamejamweek2/items/SmallThruster.png.import
 
 [params]
 

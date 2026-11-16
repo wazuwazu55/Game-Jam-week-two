@@ -3,15 +3,24 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cktayhjq4glnq"
+<<<<<<<< HEAD:gamejamweek2/Assets/LargeFuelTank.png.import
 path="res://.godot/imported/LargeFuelTank.png-c6b753bbc17da85cb1dde13eb1e3757e.ctex"
+========
+path="res://.godot/imported/LargeFuelTank.png-dd2b8c7ee909d675f748ad7354d4c08d.ctex"
+>>>>>>>> b7a4b4cbd20e503e8cf1fd3db2b628d137fb393e:gamejamweek2/items/LargeFuelTank.png.import
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
+<<<<<<<< HEAD:gamejamweek2/Assets/LargeFuelTank.png.import
 source_file="res://Assets/LargeFuelTank.png"
 dest_files=["res://.godot/imported/LargeFuelTank.png-c6b753bbc17da85cb1dde13eb1e3757e.ctex"]
+========
+source_file="res://items/LargeFuelTank.png"
+dest_files=["res://.godot/imported/LargeFuelTank.png-dd2b8c7ee909d675f748ad7354d4c08d.ctex"]
+>>>>>>>> b7a4b4cbd20e503e8cf1fd3db2b628d137fb393e:gamejamweek2/items/LargeFuelTank.png.import
 
 [params]
 
