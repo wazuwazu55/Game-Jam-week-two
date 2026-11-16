@@ -2,25 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cgabautrkmyy"
-<<<<<<<< HEAD:gamejamweek2/Assets/LargeThruster.png.import
+uid="uid://blakld6ko0dr8"
 path="res://.godot/imported/LargeThruster.png-3474af306021c83a1d41d6f69ff17621.ctex"
-========
-path="res://.godot/imported/LargeThruster.png-73d5969db0e6213af27f3a2256aaaab4.ctex"
->>>>>>>> b7a4b4cbd20e503e8cf1fd3db2b628d137fb393e:gamejamweek2/items/LargeThruster.png.import
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-<<<<<<<< HEAD:gamejamweek2/Assets/LargeThruster.png.import
 source_file="res://Assets/LargeThruster.png"
 dest_files=["res://.godot/imported/LargeThruster.png-3474af306021c83a1d41d6f69ff17621.ctex"]
-========
-source_file="res://items/LargeThruster.png"
-dest_files=["res://.godot/imported/LargeThruster.png-73d5969db0e6213af27f3a2256aaaab4.ctex"]
->>>>>>>> b7a4b4cbd20e503e8cf1fd3db2b628d137fb393e:gamejamweek2/items/LargeThruster.png.import
 
 [params]
 
