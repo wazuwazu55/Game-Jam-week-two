@@ -119,10 +119,10 @@ texture = ExtResource("7_frkif")
 [node name="transition" parent="." unique_id=491908494 instance=ExtResource("9_qsbk4")]
 visible = false
 
-[node name="load_in" type="Timer" parent="transition" unique_id=873884848]
+[node name="game_in" type="Timer" parent="transition" unique_id=873884848]
 
-[node name="load_exit" type="Timer" parent="transition" unique_id=1411600102]
+[node name="game_exit" type="Timer" parent="transition" unique_id=1411600102]
 wait_time = 1.001
 
-[connection signal="timeout" from="transition/load_in" to="." method="_on_load_in_timeout"]
-[connection signal="timeout" from="transition/load_exit" to="." method="_on_load_exit_timeout"]
+[connection signal="timeout" from="transition/game_in" to="." method="_on_load_in_timeout"]
+[connection signal="timeout" from="transition/game_exit" to="." method="_on_load_exit_timeout"]

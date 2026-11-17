@@ -45,7 +45,7 @@ offset_bottom = 1440.0
 [node name="load_in" type="Timer" parent="transition" unique_id=709395266]
 
 [node name="load_exit" type="Timer" parent="transition" unique_id=970417331]
-wait_time = 1.001
+wait_time = 1.005
 
 [connection signal="pressed" from="Button Manager/Start" to="." method="_on_start_pressed"]
 [connection signal="pressed" from="Button Manager/Quit" to="." method="_on_quit_pressed"]

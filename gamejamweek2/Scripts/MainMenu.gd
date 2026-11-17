@@ -9,10 +9,10 @@ func _ready() -> void:
 	$transition/AnimationPlayer.play("fade_out")
 
 func _on_start_pressed() -> void:
-	button_type = "start"
 	$transition.show()
 	$transition/load_exit.start()
 	$transition/AnimationPlayer.play("fade_in")
+	button_type = "start"
 
 func _on_quit_pressed() -> void:
 	get_tree().quit()
