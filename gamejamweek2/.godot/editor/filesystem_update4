@@ -5,3 +5,4 @@ res://transitionSCREEN.tscn
 res://Scenes/transitionSCREEN.tscn
 res://Scenes/node_2d.tscn
 res://Scenes/Main_Game.tscn
+res://Scenes/In_Game.gd

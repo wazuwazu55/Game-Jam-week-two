@@ -13,7 +13,7 @@ func _on_start_pressed() -> void:
 	$transition.show()
 	$transition/load_exit.start()
 	$transition/AnimationPlayer.play("fade_in")
-	
+
 func _on_quit_pressed() -> void:
 	get_tree().quit()
 	
